@@ -1,0 +1,142 @@
+{
+  "Header": {
+    "title": "Alanya Mermer & Seramik",
+    "paragraph": "Alanya Mermer&Seramik olarak, kaliteli mermer ve fayans döşemesi ile mutfak ve banyo tadilatında uzman kadromuzla hizmetinizdeyiz."
+  },
+  "About": {
+    "paragraph": "Alanya Mermer & Seramik, aile değerlerimizi ve işimize olan tutkumuzu her projeye yansıtan samimi bir işletmedir. Her projeye sıkı değerlerimize ve kişisel dokunuşumuza bağlı kalarak yaklaşırız. Ekibimiz, banyo ve mutfak tadilatı, fayans döşemesi, mermer kaplama ve dış mekan onarımları gibi alanlarda uzun yıllara dayanan deneyime sahip profesyonellerden oluşmaktadır. Alanya Mermer & Seramik olarak, sektördeki güvenilir olmayan hizmet sağlayıcılarıyla yaşanan hayal kırıklıklarından ilham alarak, müşterilerimize her zaman yüksek kaliteli, dürüst ve güvenilir hizmet sunmayı amaçladık. Amacımız, projelerinizin her aşamasında yanınızda olarak beklentilerinizi aşmak ve mekanlarınıza değer katmaktır. İşimizi gururla yapıyor, her projeye kendi evimizmiş gibi özen göstererek olağanüstü işçilik ve mükemmel müşteri hizmeti sunuyoruz. Evlerinizi dönüştürme ve güzelleştirme tutkumuzla, yaşam alanlarınızı en iyi şekilde yeniden yaratmaya hazırız. Bizi tercih ettiğiniz için teşekkür ederiz, sizinle çalışmayı sabırsızlıkla bekliyoruz!",
+    "Why": [
+      "Uzmanlık",
+      "Yüksek Kalite",
+      "Güvenilirlik",
+      "Müşteri Odaklı"
+    ],
+    "Why2": [
+      "Yenilikçi",
+      "Rekabetçi Fiyatlar",
+      "Hızlı Destek",
+      "Çevre dostu"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "image": "img/portfolio/01-large.jpg",
+      "name": "Mermer Fayans Uygulamaları",
+      "text": "Zemin, duvar, mutfak ve banyo gibi alanlarda mermer ve fayans döşemesi yapıyoruz."
+    },
+    {
+      "image": "img/portfolio/02-large.jpg",
+      "name": "Banyo ve Mutfak Yenileme",
+      "text": "Banyo ve mutfaklarınızı modernize ederek, estetik ve fonksiyonel alanlar oluşturuyoruz."
+    },
+    {
+      "image": "img/portfolio/03-large.jpg",
+      "name": "Mezar Mermer Kaplama",
+      "text": "Sevdiklerinizin mezarları için dayanıklı ve şık mermer kaplama çözümleri sunuyoruz."
+    },
+    {
+      "image": "img/portfolio/04-large.jpg",
+      "name": "Her Türlü Tadilat ve Onarım",
+      "text": "Tuvalet, banyo, mutfak gibi her türlü tadilat ve onarım işlerini güvenle yapıyoruz."
+    },
+    {
+      "image": "img/portfolio/05-large.jpg",
+      "name": "Boyama İşleri",
+      "text": "İç ve dış mekanlar için profesyonel boyama hizmeti ile mekanlarınıza yenilik katıyoruz."
+    },
+    {
+      "image": "img/portfolio/06-large.jpg",
+      "name": "Laminat Parke Döşeme",
+      "text": "Ev ve ofisleriniz için estetik ve dayanıklı laminat parke döşeme hizmeti sağlıyoruz."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/04.jpg",
+      "name": "Seydi Altundag",
+      "job": "Mudur"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mahmur Altundag",
+      "job": "Mudur Yardimcisi"
+    }
+  ],
+  "Contact": {
+    "address": "Alanya, Antalya, Türkiye",
+    "phone": "+90 541 828 6821",
+    "email": "alanyamermerseramik@gmail.com",
+    "facebook": "fb.com",
+    "instagram": "https://www.instagram.com/alanyamermerseramik/",
+    "whatsapp": "https://wa.me/+905418286821"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
