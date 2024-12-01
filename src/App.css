@@ -16,3 +16,61 @@
     width: 110%;
   }
 }
+#whatsapp-button {
+  position: fixed; /* Keeps it fixed in the bottom-right corner */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  z-index: 1000; /* Ensures it's above other content */
+  display: flex;
+  flex-direction: row; /* Aligns the text and logo horizontally */
+  align-items: center; /* Vertically aligns the text and logo */
+}
+
+#whatsapp-button a {
+  display: flex; /* Centers the content inside the button */
+  justify-content: center; /* Centers items along the main axis */
+  align-items: center; /* Centers items along the cross axis */
+  background-color: #25D366; /* WhatsApp green color */
+  border-radius: 30px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+  padding: 10px 20px; /* Adds space around the content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds hover animation */
+}
+
+#whatsapp-button a:hover {
+  transform: scale(1.1); /* Slightly enlarges on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifies shadow on hover */
+}
+
+#whatsapp-button img {
+  width: 30px; /* Adjust the logo size */
+  height: 30px; /* Adjust the logo size */
+  margin-left: 10px; /* Space between the text and the logo */
+}
+
+#contact-text {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+#contact-text span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  #whatsapp-button {
+    bottom: 10px; /* Brings it closer to the bottom for small screens */
+    right: 10px; /* Closer to the right */
+    padding: 8px 16px; /* Adjusts the padding */
+  }
+
+  #whatsapp-button img {
+    width: 25px; /* Smaller logo size for smaller screens */
+    height: 25px;
+  }
+
+  #contact-text {
+    font-size: 12px; /* Smaller text for small screens */
+  }
+}

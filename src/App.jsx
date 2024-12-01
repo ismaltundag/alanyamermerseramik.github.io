@@ -6,6 +6,7 @@ import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import WhatsAppButton from "./components/whatsAppButton";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -31,6 +32,7 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <WhatsAppButton />
     </div>
   );
 };
