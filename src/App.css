@@ -16,6 +16,8 @@
     width: 100%;
   }
 }
+
+/* Whatsapp log */
 #whatsapp-button {
   position: fixed; /* Keeps it fixed in the bottom-right corner */
   bottom: 20px; /* Distance from the bottom */
@@ -72,5 +74,16 @@
 
   #contact-text {
     font-size: 12px; /* Smaller text for small screens */
+  }
+}
+
+/* Header text fix */
+.navbar-header .navbar-brand {
+  font-size: 19px !important; /* Force the size to apply */
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 24px; /* Font size for desktop */
   }
 }
