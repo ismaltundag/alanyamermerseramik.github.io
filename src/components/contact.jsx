@@ -16,13 +16,13 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
   
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_wj84udr", "template_q0kf9in", e.target, "zii3IUiA7zDnNCDA-")
       .then(
         (result) => {
           console.log(result.text);
@@ -46,14 +46,14 @@ export const Contact = (props) => {
                   En kısa sürede size geri dönüş yapacağız.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
                         type="text"
-                        id="name"
-                        name="name"
+                        id="from_name"
+                        name="from_name"
                         className="form-control"
                         placeholder="İsim ve Soyisim"
                         required
@@ -66,8 +66,8 @@ export const Contact = (props) => {
                     <div className="form-group">
                       <input
                         type="email"
-                        id="email"
-                        name="email"
+                        id="from_email"
+                        name="from_email"
                         className="form-control"
                         placeholder="E-Posta Adresi"
                         required
