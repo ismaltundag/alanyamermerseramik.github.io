@@ -9,6 +9,8 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [statusMessage, setStatusMessage] = useState("");
+  const [messageType, setMessageType] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,7 +18,7 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
   
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
@@ -26,10 +28,14 @@ export const Contact = (props) => {
       .then(
         (result) => {
           console.log(result.text);
+          setStatusMessage("Mesajınız başarıyla gönderildi!");
+          setMessageType("success");
           clearState();
         },
         (error) => {
           console.log(error.text);
+          setStatusMessage("Bir hata oluştu, lütfen tekrar deneyin.");
+          setMessageType("error");
         }
       );
   };
@@ -94,6 +100,11 @@ export const Contact = (props) => {
                   Mesaj gönder
                 </button>
               </form>
+              {statusMessage && (
+                <div className={`status-message ${messageType === "success" ? "success-message" : "error-message"}`}>
+                  {statusMessage}
+                </div>
+              )}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
