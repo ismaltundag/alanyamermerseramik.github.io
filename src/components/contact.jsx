@@ -49,7 +49,7 @@ export const Contact = (props) => {
                 <h2>BİZİMLE İLETİŞİME GEÇİN</h2>
                 <p>
                   Lütfen aşağıdaki formu doldurarak bize e-posta gönderin.
-                  En kısa sürede size geri dönüş yapacağız.
+                  En kısa sürede size geri dönüş yapacağız. Alternatif olarak, bize WhatsApp veya Instagram hesabımızdan da ulaşabilirsiniz!
                 </p>
               </div>
               <form name="sentMessage" onSubmit={handleSubmit}>
