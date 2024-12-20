@@ -42,11 +42,11 @@ export const Navigation = (props) => {
                 MEDYA GALERİ
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#team" className="page-scroll">
                 EKİBİMİZ
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 İLETİŞİM
